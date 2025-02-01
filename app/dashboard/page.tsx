@@ -1,5 +1,6 @@
 // import { UserDetails } from "../components/user-details";
 import { UserButton } from "@clerk/nextjs";
+import Upload from "../components/Upload";
 
 export default async function DashboardPage() {
   return (
@@ -21,6 +22,9 @@ export default async function DashboardPage() {
             </header>
             {/* <UserDetails /> */}
             <h1>Welcome to Dashboard</h1>
+            <div className="py-2">
+              <Upload />
+            </div>
           </div>
         </div>
       </main>
