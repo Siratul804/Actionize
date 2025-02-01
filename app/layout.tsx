@@ -5,11 +5,8 @@ import { Metadata } from "next";
 import localFont from "next/font/local";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://clerk-next-app.vercel.app/"),
-  title: "Next.js Clerk Template",
-  description:
-    "A simple and powerful Next.js template featuring authentication and user management powered by Clerk.",
-  openGraph: { images: ["/og.png"] },
+  title: "Actionize",
+  description: " A simple and powerful task management tool for teams.",
 };
 
 const geistSans = localFont({
